@@ -22,6 +22,7 @@ def room(request, pk):
 
 def createRoom(request):
     form = RoomForm()
+    
     if request.method == 'POST':
         print(request.POST)
         
