@@ -5,9 +5,9 @@
 <div>
     <form action="POST" action="">
         {% csrf_token %}
-
+        {{room.as_p}}
         <input type="submit" value="Submit">
     </form>
 </div>
 
-{% end blockcontent %}
+{% endblock content %}
