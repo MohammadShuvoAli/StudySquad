@@ -1,6 +1,4 @@
-{% extends 'main.html' %} 
-
-{% block content %}
+{% extends 'main.html' %} {% block content %}
 
 <style>
   .home-container {
@@ -49,15 +47,7 @@
     </div>
   </div>
   <div>
-    <h3>Recent Activity</h3>
-    <hr />
-    {% for message in room_messages %}
-    <div>
-      <small>@{{message.user}} {{message.created|timesince}} </small>
-      <small>replied to "{{message.room}}" </small>
-      <p> {{message}} </p>
-    </div>
-    {% endfor %}
+    {% include 'base/activity_component.html' %}
   </div>
 </div>
 
