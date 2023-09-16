@@ -82,32 +82,6 @@
     </header>
     {% include 'navbar.html' %}
 
-    {% block content %}
-
-    {% endblock content %}
-
-    <!-- <script src="script.js"></script> -->
-  </body>
-</html>
-
-
-
-
-
-
-
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Squad</title>
-    <link rel="stylesheet" href="{% static 'styles/main.css' %}">
-</head>
-<body>
-    {% include 'navbar.html' %}
-
     {% if messages %}
     <ul class="messages">
         {% for message in messages %}
@@ -119,5 +93,8 @@
     {% block content %}
 
     {% endblock content %}
-</body>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+  
 </html>
