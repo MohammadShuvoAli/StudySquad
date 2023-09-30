@@ -20,8 +20,8 @@ StudySquad is a dynamic web application that empowers students to engage in coll
 
 ## Screenshots
 
-![Screenshot 1]([path_to_screenshot_1.png](https://github.com/MohammadShuvoAli/StudySquad/blob/main/static/images/snap1.PNG))
-![Screenshot 2]([path_to_screenshot_2.png](https://github.com/MohammadShuvoAli/StudySquad/blob/main/static/images/snap2.PNG))
+![Homepage](https://github.com/MohammadShuvoAli/StudySquad/blob/main/static/images/snap1.PNG)
+![Chat Room](https://github.com/MohammadShuvoAli/StudySquad/blob/main/static/images/snap2.PNG)
 
 ## Getting Started
 
