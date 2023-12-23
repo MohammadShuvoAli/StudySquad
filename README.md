@@ -27,7 +27,7 @@ StudySquad is a dynamic web application that empowers students to engage in coll
 
 To run this project locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/StudySquad.git`
+1. Clone this repository: `git clone https://github.com/MohammadShuvoAli/StudySquad.git`
 2. Navigate to the project directory: `cd StudySquad`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Apply database migrations: `python manage.py migrate`
